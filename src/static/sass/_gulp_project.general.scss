@@ -1,0 +1,15 @@
+/* General */
+
+/* Color map */
+$colorWhite: #ffffff;
+$bodyBg: #f7f7f7;
+$colorLinks: #4495CC;
+$colorLinks__hover: #333;
+
+/* Fonts definition */
+@include font-face("CaviarRegular", "caviardreams-webfont");
+
+/* Comon styles */
+body {background:$bodyBg;font-family:"CaviarRegular";}
+a {color:$colorLinks;text-decoration:none;transition: color 200ms;}
+a:hover {color:$colorLinks__hover;}
