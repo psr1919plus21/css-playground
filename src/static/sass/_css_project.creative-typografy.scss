@@ -1,0 +1,13 @@
+/**
+ * Creative typografy
+ */
+
+.single-example {border-bottom:1px dotted #c7c7c7;margin:0 auto 60px;padding-bottom:60px;padding-top:40px;}
+.single-example__dark {background:#111111;}
+.title {text-align:center;margin-bottom:24px;}
+.single-example__dark .title {color:#f7f7f7;}
+.heart-svg-wrapper {margin:0 auto;max-width:300px;width:100%;}
+.heart-path {cursor:pointer;transition:fill 200ms;}
+.heart-path:hover {fill:#3E7CBB;}
+.text-svg-wrapper {margin:0 auto;max-width:600px;width:100%;}
+.love {fill:#ff6666;}
