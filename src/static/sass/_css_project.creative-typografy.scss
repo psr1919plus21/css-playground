@@ -35,3 +35,38 @@
   position: relative;
   top: -3px;
 }
+.icon-red,
+.icon-grey {
+  transition: fill 300ms;
+}
+.visl-svg-wrapper {
+  cursor: pointer;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover {
+    .icon-grey {
+      fill: #E13723;
+    }
+    .icon-red {
+      fill: #DADBDD;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
