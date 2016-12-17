@@ -8,7 +8,6 @@
 .single-example__dark .title {color:#f7f7f7;}
 .heart-path {cursor:pointer;transition:fill 200ms;}
 .text-svg-wrapper {margin:0 auto;max-width:600px;width:100%;}
-.love {fill:#ff6666;}
 
 .heart-logo-wrapper {
   text-align: center;
@@ -53,8 +52,15 @@
     }
   }
 }
+.text-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-
+.love {
+  fill: tomato;
+}
 
 
 
