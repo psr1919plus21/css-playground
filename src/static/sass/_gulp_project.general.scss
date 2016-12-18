@@ -10,6 +10,6 @@ $colorLinks__hover: #333;
 @include font-face("CaviarRegular", "caviardreams-webfont");
 
 /* Comon styles */
-body {background:$bodyBg;font-family:"CaviarRegular";}
+body {background:$bodyBg;font-family:"CaviarRegular", sans-serif;}
 a {color:$colorLinks;text-decoration:none;transition: color 200ms;}
 a:hover {color:$colorLinks__hover;}
