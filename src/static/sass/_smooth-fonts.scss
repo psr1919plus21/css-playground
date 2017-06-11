@@ -1,0 +1,4 @@
+.smooth {
+  text-align: center;
+  @include poly-fluid-sizing('font-size', (576px: 22px, 768px: 24px, 992px: 34px, 1200px: 46px));
+}
